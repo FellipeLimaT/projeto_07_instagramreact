@@ -1,3 +1,5 @@
+import React, { Component } from 'react';
+
 function Post(props) {
     return (
       <div class="feed">

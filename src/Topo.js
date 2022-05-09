@@ -1,3 +1,5 @@
+import React, { Component } from 'react';
+
 function IconLink(props) {
     return (
       <a href={props.link} target="_blank">

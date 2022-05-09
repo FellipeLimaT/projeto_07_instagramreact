@@ -1,3 +1,5 @@
+import React, { Component } from 'react';
+
 function Storie(props) {
     return (
       <div class="storie">

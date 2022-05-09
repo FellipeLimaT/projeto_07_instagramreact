@@ -1,3 +1,5 @@
+import React, { Component } from 'react';
+
 import Stories from "./Stories";
 import Posts from "./Posts";
 import Sugestoes from "./Sugestoes";

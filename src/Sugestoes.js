@@ -1,3 +1,5 @@
+import React, { Component } from 'react';
+
 function Profile(props) {
     return (
       <div class="perfil">
