@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+/* import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
@@ -18,4 +18,18 @@ class App extends Component {
   }
 }
 
-export default App;
+export default App; */
+
+import Topo from "./Topo";
+import Conteudo from "./Conteudo";
+import Rodape from "./Rodape";
+
+export default function App() {
+  return (
+    <div>
+      <Topo />
+      <Conteudo />
+      <Rodape />
+    </div>
+  );
+}
